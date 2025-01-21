@@ -1,0 +1,42 @@
+
+<header>
+    <a href="" class="logo">
+        <img src="https://img.freepik.com/vector-premium/logotipo-firma-inicial-cm-vector-plantilla-logotipo-escritura-mano_427177-361.jpg"  alt="nose" class="logo-img">
+        <h2 class="logo-nom"> Cristian </h2>
+    </a>
+<nav>
+    <div class="container">
+        <div class="row">
+    <div class="col-lg-3"> <a href="" class="nav-link">Home</a></div>
+    <div class="col-lg-3"> <a href="Formulario" class="nav-link">Formulario</a></div>
+    <div class="col-lg-3"> <a href="Link2" class="nav-link">Somos</a></div>
+    <div class="col-lg-3"> <a href="Link3" class="nav-link">Contactos</a></div>
+    </div>
+        </div>
+</nav>
+</header>
+
+<body>
+
+
+<h1>HOLAAA</h1>
+<h4>Sección De Contactos</h4>
+
+<div class="row">
+<div class="datos">
+    <div *ngFor="let dato of datos let i=index">
+
+{{i+1}}: {{dato.nombre}} {{dato.telefono}} {{dato.direccion}}
+    </div>
+</div>
+</div>
+
+</body>
+
+<footer>  <h3>Contacto</h3>
+<ul> 
+   Teléfono: 123-456-7890 <br>
+   Email: contacto.com <br>
+   Dirección: Calle 123, Ciudad
+</ul>
+</footer>

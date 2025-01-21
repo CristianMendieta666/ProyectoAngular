@@ -1,0 +1,68 @@
+.col{
+    margin-top: 130px;
+    margin-left: 10px;
+    font-style: oblique;
+}
+
+input{
+    font-style: oblique;
+}
+
+.datos{
+    margin-top: 60px;
+}
+
+.contenedorcont{
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    padding-left: 150px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 680px;
+    margin-right: 670px;
+    box-shadow: 7px 13px 37px #dddddd27;
+    font-family: 'calibri';
+    background-color: rgba(255, 255, 255, 0.973);
+ 
+}
+
+.navbar-nav{
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+.nav-link1{
+    margin-right: 20px;
+}
+
+.nav-link2{
+    margin-right: 20px;
+}
+
+.nav-link3{
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #ffffff94;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    border-radius: 10px;
+    margin-right: 10px;
+  
+}
+
+footer h3 {
+    color: #000000;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}

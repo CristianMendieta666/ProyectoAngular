@@ -1,0 +1,59 @@
+<body>
+<app-barra-nav></app-barra-nav>
+<div class="contenedorcont">
+    <div class="col"><h1>{{titulo}}</h1></div>
+<div class="container">
+    <br>
+
+    <form class="form-group row">
+        <div class="form-group col-md-9">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre" class="form-control" [(ngModel)]="cuadroNombre">
+        </div>
+
+        <div class="form-group col-md-9">
+            <label for="email">Correo Electronico:</label>
+            <input type="email" name="email" placeholder="Email" class="form-control"[(ngModel)]="cuadroCorreo">
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" placeholder="Direccion" class="form-control" [(ngModel)]="cuadroDireccion">
+        </div>
+
+        <div class="form-group col-md-5">
+            <label for="telefono">Telefono:</label>
+            <input type="number" name="telefono" placeholder="Telefono" class="form-control" [(ngModel)]="cuadroTelefono">
+        </div> 
+        
+      <div>
+            <button style="text-align: right; margin-top: 20px;" type="submit" class="btn btn-outline-dark" (click)="agregarDatos()">
+                Agregar
+            </button></div>
+
+            <div class="row">
+                <div class="datos">
+                    <div *ngFor="let dato of datos let i=index">
+              
+              {{i+1}}: {{dato.nombre}} {{dato.correo}} {{dato.telefono}} {{dato.direccion}}
+                    </div>
+                </div>
+            </div>
+    
+            
+    </form><br><br><br><br><br><br>
+
+
+    
+               </div>
+</div><br><br>
+</body>
+
+
+<footer>  <h3>Contacto</h3>
+ <ul> 
+    Teléfono: 123-456-7890 <br>
+    Email: contacto.com <br>
+    Dirección: Calle 123, Ciudad
+</ul>
+</footer>
